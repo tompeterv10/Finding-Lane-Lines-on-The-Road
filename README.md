@@ -17,13 +17,13 @@ The kernel size for gaussian blur is selected as 5 and canny transform is applie
 
 Shortcomings
 -------------
-The pipeline may not work if lanes are in different location and not uniform.
-The region is hard coded in current pipeline.
+1. The pipeline may not work if lanes are in different location and not uniform.
+2. The region is hard coded in current pipeline.
 
 Improvements
 -------------
-Ideally thre region should be automatically calculated.
-It should work for different color masks and even though the lane location changes drastically it should be able to work.
+1. Ideally thre region should be automatically calculated.
+2. It should work for different color masks and even though the lane location changes drastically it should be able to work.
 
 
 
