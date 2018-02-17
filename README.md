@@ -22,9 +22,8 @@ Shortcomings
 
 Improvements
 -------------
-1. Ideally thre region should be automatically calculated.
-2. It should work for different color masks and even though the lane location changes drastically it should be able to work.
-
-
+• Image from infrared camera.
+• Adding a outlier reduction approach like RANSAC on the hough lines.
+• Using curve fitting to plot the curve instead of straight lines
 
 
